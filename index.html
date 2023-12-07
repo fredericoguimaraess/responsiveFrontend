@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo com Bootstrap</title>
+    <!-- Incluindo Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            /* Cor de fundo correspondente ao menu */
+            background-color: #f1f4f9;
+            color: rgb(54, 52, 52);
+            /* Cor do texto */
+        }
+
+        #secao-intermediaria {
+            /* Background branco para a seção intermediária */
+            background-color: white;
+            color: #333;
+            /* Cor do texto */
+        }
+
+        #rodape {
+            background-color: rgb(8, 7, 7) !important;
+        }
+
+        #conteudo-principal {
+            padding-top: 200px !important;
+        }
+
+        #navbar-brand {}
+    </style>
+</head>
+
+<body>
+
+    <!-- Menu de navegação fixo -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #f1f4f9; color: black;">
+        <a class="navbar-brand" href="#"><img src="img/logo-lqdi-positivo-1.png" width="90" height="60" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="background-color: black; color: white;" class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a style="color: #333" class="nav-link" href="">Agende uma reunião conosco</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""><button type="button" class="btn btn-dark"
+                            style="border-radius: 30px; background-color: black; font-size: 16px;">Começar</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <section id="conteudo-principal" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Construímos estratégias,
+                        design e tecnologia de ponta
+                        para o seu negócio</h1>
+                    <h5><br>Converse com nossa equipe sobre o seu projeto. <br><br><br></h5>
+                    <button type="button" class="btn btn-info" style="border-radius: 25px;">Começar</button>
+                    <img class="d-block" src="img/rectangle-112.png" width="280" height="268" alt=""
+                        style="margin-top: 180px;" />
+
+                </div>
+                <div class="col">
+                    <img class="d-block" src="img/rectangle-109.png" width="280" height="268" alt=""
+                        style="margin: 10px;" />
+                    <img class="d-block" src="img/rectangle-111.png" width="280" height="414" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Intermediária -->
+    <section id="secao-intermediaria" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="img/rectangle-113.png" width="317" height="260" alt="" />
+                    <h3>Por que é importante ter um site
+                        de qualidade?</h3>
+                    <p>Um site de qualidade passou a ser um dos <br>
+                        meios de exposição de marca mais eficientes<br>
+                        no ambiente online. Ele funciona como uma <br>
+                        espécie de cartão...</p>
+                    <h6><br><br>Ir para o artigo</h6>
+                </div>
+                <div class="col-sm">
+                    <img src="img/rectangle-114.png" width="317" height="260" alt="" />
+                    <h3>6 dicas para trabalhar com
+                        marketing digital com
+                        verba limitada</h3>
+                    <p>Um site de qualidade passou a ser um dos <br>
+                        meios de exposição de marca mais eficientes<br>
+                        no ambiente online. Ele funciona como uma <br>
+                        espécie de cartão...</p>
+                    <h6>Ir para o artigo</h6>
+                </div>
+                <div class="col-sm" style="border-radius: 19px; background-color: black; color: white;">
+                    <h1 style="font-size: 37px; font-weight: 600;"><br>Receba os nossos <br>
+                        artigos de interesse
+                        na sua caixa de <br>
+                        entrada.<br></h1>
+                    <p style="background-color: white; color: black; border-radius: 10px;">Escreva aqui seu
+                        e-mail...</p>
+                    <p><br>Siga-nos em<br>
+                        nossas mídias<br>
+                        sociais</p>
+                    <img src="img/ri-linkedin-box-fill.svg" style="background-color: white; border-radius: 10px;" />
+                    <img src="img/mdi-instagram.svg" style="background-color: white; border-radius: 10px;" />
+                    <img src="img/fe-facebook.svg" style="background-color: white; border-radius: 10px;" />
+                </div>
+                <div class="col">
+                    <h1><br><br><br><br>Viva uma nova experiência <br>
+                        de comunicação integrada <br>
+                        com foco nos resultados.
+                    </h1>
+                    <h6>Escreva-nos sobre o seu projeto</h6>
+                </div>
+                <div class="col">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><br><br><br><br><br><br><br>Seu Nome</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Assunto</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Mensagem</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Anexe um documento explicando seu projeto</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="rodape" class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img src="img/logo-lqdi-positivo-1-1.png" />
+                </div>
+                <div class="col-sm">
+                    <p class="brasil-address" style="font-size: 16px;">
+                        <span class="span" style="font-weight: bold;">Brasil<br /></span>
+                        <span class="text-wrapper-19">Rua da Consolação, 4393º andar, Consolação São
+                            Paulo<br /><br />+55 11 3280-0283</span>
+                    </p>
+                </div>
+                <div class="col-sm" style="font-size: 16px;">
+                    <p class="portugal-address">
+                        <span class="span" style="font-weight: bold;">Portugal<br /></span>
+                        <span class="text-wrapper-19">Av. República Nº6 - 1º Andar Lisboa<br /><br />+351 916 029
+                            443</span>
+                    </p>
+                    <p class="holanda-address">
+                        <span class="span" style="font-weight: bold;">Holanda<br /></span>
+                        <span class="text-wrapper-19">Jasykoffstraat 631506AT ZaandamThe Netherlands<br /><br />+31 622
+                            333 744</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Incluindo Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Scripts personalizados -->
+    <script>
+        // Adicione scripts personalizados aqui, se necessário
+    </script>
+</body>
+
+</html>
